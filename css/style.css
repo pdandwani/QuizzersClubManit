@@ -23,6 +23,7 @@ html {
 body {
   font-family: "Gayathri", sans-serif;
   letter-spacing: 2px;
+  overflow-x:hidden;
 }
 .center {
   text-align: center;
@@ -60,7 +61,7 @@ body {
   
 }
 .footer {
-  background: black;
+  background: rgb(0, 18, 66 );
 }
 
 .fa-mug-hot {
@@ -87,7 +88,8 @@ body {
   color:green;
 }
 #hide {
-  position: sticky;
+  /* position: sticky; */
+  position:fixed;
   top: 0;
   z-index: 9;
 
@@ -122,17 +124,21 @@ body {
 }
 
 .event {
-  background-image: url("events.jpg");
+  /* background-image: url("events.jpg"); */
+  background: linear-gradient(185deg, rgba(114,210,255,1) 25%, rgba(58,255,97,1) 100%);
   background-size: cover;
   background-attachment: fixed;
 }
 #about {
-  background-image: url("odd2.jpg");
+  /* background-image: url("odd2.jpg"); */
+  background-color: rgb(229, 193, 189);
   background-size: cover;
   background-attachment: fixed;
 }
 .transparent {
-  background: rgba(255, 255, 255, 0.3);
+  /* background: rgba(255, 255, 255, 0.3); */
+  background: rgba(255, 255, 255, 1);
+
 }
 .w {
   width: 25%;
@@ -187,9 +193,10 @@ body {
 }
 .theme {
   height: 100vh;
-  background: url("dl.jpg");
+  /* background: url("dl.jpg"); */
+  background: url(../images/bg.png);
   
-  background-position: center 0;
+  /* background-position: center 0; */
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
@@ -221,7 +228,7 @@ body {
 }
 .hide{
   position:absolute;
-  display:;
+  
   
 }
 .mem{
@@ -241,8 +248,10 @@ body {
   display: inline-block;
   
 }
-.title1{
-  font-family: 'Ubuntu', sans-serif;
-  background: url("events.jpg");
-  color: white;
+
+.rounded{
+  border-radius:20px !important;
+}
+.nav-item{
+  min-width:125px;
 }
