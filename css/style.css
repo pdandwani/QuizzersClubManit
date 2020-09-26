@@ -192,6 +192,7 @@ body {
 }
 .theme {
   height: 100vh;
+  width:100vw;
   /* background: url("dl.jpg"); */
   background: url(../images/bg.png);
 
