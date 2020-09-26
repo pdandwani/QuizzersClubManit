@@ -34,38 +34,38 @@
 
 <body>
   <nav class="navbar navbar-expand-lg px-3 px-md-5 navbar-light w-100" id="hide">
-    <a class="navbar-brand mt-2" href="#" style="color:red;">Quizzers' Club</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+    <!--  <a class="navbar-brand mt-2" href="#" style="color:red;">Quizzers' Club</a> -->
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon text-dark"></span>
     </button>
-    <div class="collapse navbar-collapse  justify-content-end" id="navbarNavDropdown">
+    <div class="collapse navbar-collapse  justify-content-center" id="navbarNavDropdown">
       <ul class="navbar-nav">
-        <li class="nav-item active text-center font-weight-bold border border-dark text-dark mx-3 rounded pt-1 mt-1">
+        <li class="nav-item active text-center font-weight-bold ml-3 rounded pt-1 mt-1 border-purple">
           <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
         </li>
-        <li class="nav-item text-center font-weight-bold border border-dark text-dark mx-3 rounded pt-1 mt-1">
+        <li class="nav-item text-center font-weight-bold ml-3 rounded pt-1 mt-1 border-purple">
           <a class="nav-link" href="#about">About Us</a>
         </li>
-        <li class="nav-item text-center font-weight-bold border border-dark text-dark mx-3 rounded pt-1 mt-1">
+        <li class="nav-item text-center font-weight-bold ml-3 rounded pt-1 mt-1 border-purple">
           <a class="nav-link" href="#event">Events</a>
         </li>
-        <li class="nav-item text-center font-weight-bold border border-dark text-dark mx-3 rounded pt-1 mt-1">
+        <li class="nav-item text-center font-weight-bold ml-3 rounded pt-1 mt-1 border-purple">
           <a class="nav-link" href="./team.htm">Our team</a>
         </li>
 
-        <li class="nav-item text-center font-weight-bold border border-dark text-dark mx-3 rounded pt-1 mt-1">
+        <li class="nav-item text-center font-weight-bold ml-3 rounded pt-1 mt-1 border-purple">
           <a class="nav-link" href="#contact">Contact us</a>
         </li>
       </ul>
     </div>
   </nav>
-  <div class="container-fluid p-0 theme d-flex align-items-center justify-content-left" style="position:relative;">
+  <div class="container-fluid p-0 theme d-flex align-items-center justify-content-left position-relative">
     <!-- <img src="images/qcm.png" alt="" class="w-50  m-0 " /> -->
   </div>
   <div class="container-fluid p-5" id="about">
-    <p class="h1 mt-3 text-lg-left text-sm-center"><b>About us</b></p>
-    <p class=" pl-md-5 pr-md-5 font-weight-bold">
+    <p class="h1 mt-3 text-center text-lg-left "><b>About us</b></p>
+    <p class="font-weight-bold text-justify">
       Quizzers' Club Manit (QCM) is the official quizzing society of Maulana Azad Institute of Technology Bhopal. It is
       a society formed in Manit by a bunch of quizzing prodigies of manit in Feb 2013. We are a group of enthusiastic
       quizzers, executives and designers. The purpose of the society is to promote quizzing, group discussion, debate
@@ -75,7 +75,7 @@
 
     <div class="" id="small">
 
-      <p class=" pl-md-5 pr-md-5 font-weight-bold">
+      <p class="font-weight-bold text-justify">
         The main events organized by Quizzers' Club Manit are Vihaan, TQQW, Quizzotica and Manthan. We try to bring
         like-minded quizzing enthusiasts together on a platform for mutual sharing of ideas and probing the globe of
         knowledge. Quizzers' Club Manit provides opportunity to the students to show their quizzing skills.
@@ -87,33 +87,105 @@
     <div id="seeMore"><button onClick="knowMore()" class="btn btn-outline-dark float-right ">...see more</button></div>
     <div id="seeLess"><button onClick="knowLess()" class="btn btn-outline-dark float-right ">...see less</button></div>
   </div>
-  <div class="jumbotron event m-0" id="event">
-    <p class="h1 mt-3 mr-lg-3 text-lg-right text-sm-center text-white">
+  <div class="container-fluit p-5 event row justify-content-between" id="event">
+    <p class="h1 w-100 mt-3 mr-lg-3 text-center text-lg-right text-white">
       <b>Our Events</b>
     </p>
-    <div class="container-fluid mt-2 mb-2 p-3 transparent rounded d-flex flex-wrap justify-content-center">
-      <img src="images/Vihaan/vihaan.jpg" alt="" class="w border align-self-center" />
-      <div class="float-left p-3 w1 align-self-center">
-        <h1 class="text-center font-weight-bold">Vihaan</h1>
+    <div class="m-1 p-3 transparent rounded eventCard">
+      <!-- <img src="images/Vihaan/vihaan.jpg" alt="" class="w border align-self-center" /> -->
+      <div class=" text-justify d-flex flex-wrap">
+        <h1 class="text-center font-weight-bold w-100">Vihaan</h1>
+        <img src="images/Vihaan/vihaan.jpg" alt="" class="w-100 mb-3 border align-self-center" />
         <p class="">
           QCM's session starts with VIHAAN. VIHAAN is one of the first events for the first years ( even before the
           freshers evening) and they get to know what awaits them in the future. VIHAAN is a platform for students,
           amateurs
           quizzers and
           newcomers to prove their mettle in quizzing.<br />
-          VISION - QCM’s vision with VIHAAN is to make quizzing more popular among freshers.
+          <!-- VISION - QCM’s vision with VIHAAN is to make quizzing more popular among freshers.
         <div class="d-flex justify-content-center">
-          <!-- <div class="w-33 text-center text-white"><b>FootFall</b><br />150+</div> -->
+          <div class="w-33 text-center text-white"><b>FootFall</b><br />150+</div>
           <div class="w-50 text-center"><b>Prizes</b><br />Cash Prizes worth Rs. 500/- and more</div>
           <div class="w-50 text-center"><b>Eligibility</b><br />Only for Freshers of MANIT</div>
-        </div>
+        </div> -->
         </p>
         <!-- <div class="d-flex justify-content-center">
           <button type="button" class="btn btn-light">Know More</button>
         </div> -->
       </div>
     </div>
-    <div
+    <div class="m-1 p-3 transparent rounded eventCard">
+      <!-- <img src="images/Vihaan/vihaan.jpg" alt="" class="w border align-self-center" /> -->
+      <div class=" text-justify d-flex flex-wrap">
+        <h1 class="text-center w-100 font-weight-bold">Quizzotica</h1>
+        <img src="images/Quizzotica/quizottica.jpg" alt="" class="w-100 mb-3 border align-self-center" />
+        <p class="">
+          QUIZZOTICA is QCM’s attempt to make the largest Technical fest in central India “TECHNOSEARCH” more fun and
+          exciting. Quizzotica has 2 rounds , with the first round being full of fun activities and competitions to be
+          performed in groups which tests your creativity and knowledge. The second round consists of an exciting quiz
+          with different sub-rounds which make the event more challenging.
+          <!-- VISION - QCM’s vision with VIHAAN is to make quizzing more popular among freshers.
+        <div class="d-flex justify-content-center">
+          <div class="w-33 text-center text-white"><b>FootFall</b><br />150+</div>
+          <div class="w-50 text-center"><b>Prizes</b><br />Cash Prizes worth Rs. 500/- and more</div>
+          <div class="w-50 text-center"><b>Eligibility</b><br />Only for Freshers of MANIT</div>
+        </div> -->
+        </p>
+        <!-- <div class="d-flex justify-content-center">
+          <button type="button" class="btn btn-light">Know More</button>
+        </div> -->
+      </div>
+    </div>
+    <div class="m-1 p-3 transparent rounded eventCard">
+      <!-- <img src="images/Vihaan/vihaan.jpg" alt="" class="w border align-self-center" /> -->
+      <div class=" text-justify d-flex flex-wrap">
+        <h1 class="text-center font-weight-bold w-100">Manthan</h1>
+        <img src="images/Manthan/manthan.jpg" alt="" class="w-100 mb-3 border align-self-center" />
+        <p class="">
+          Manthan is QCM’s flagship event. Manthan’s first-round consist of quizzes in different colleges across the
+          country. In 2018, our team visited more than 15 colleges across Madhya Pradesh, Uttar Pradesh and Rajasthan to
+          make MANTHAN 2018 our most successful event till date. The second round is a formal quiz organized by the best
+          quizmasters of the state. Each student represents their college which leads to a better competition and
+          bragging rights.<br />
+          <!-- VISION - QCM’s vision with VIHAAN is to make quizzing more popular among freshers.
+        <div class="d-flex justify-content-center">
+          <div class="w-33 text-center text-white"><b>FootFall</b><br />150+</div>
+          <div class="w-50 text-center"><b>Prizes</b><br />Cash Prizes worth Rs. 500/- and more</div>
+          <div class="w-50 text-center"><b>Eligibility</b><br />Only for Freshers of MANIT</div>
+        </div> -->
+        </p>
+        <!-- <div class="d-flex justify-content-center">
+          <button type="button" class="btn btn-light">Know More</button>
+        </div> -->
+      </div>
+    </div>
+    <div class="m-1 p-3 transparent rounded eventCard">
+      <!-- <img src="images/Vihaan/vihaan.jpg" alt="" class="w border align-self-center" /> -->
+      <div class=" text-justify d-flex flex-wrap">
+        <h1 class="text-center font-weight-bold w-100">TQQW</h1>
+        <img src="images/tqqw.jpeg" alt="" class="w-100 mb-3 border align-self-center" />
+        <p class="">
+          The Quarantine Quizzing Week (TQQW) - Due to the Covid-19 pandemic, Manthan’20 got cancelled. But the team
+          tried thier best to replace Manthan with our longest and first online event till date. TQQW was our first
+          online event held over a week, with different topics for each of the seven days. TQQW received an overall
+          positive response and we are motivated to organize more such online events.
+          In TQQW we organized quiz on the daily basis for a week on topics like history, business,sports etc. The
+          winners were awarded with cash prize and certificates, and the event got huge overwhelming response. Although,
+          we wish this quarantine never hit you again but more events like this will surely spice up your
+          knowledge.<br />
+          <!-- VISION - QCM’s vision with VIHAAN is to make quizzing more popular among freshers.
+        <div class="d-flex justify-content-center">
+          <div class="w-33 text-center text-white"><b>FootFall</b><br />150+</div>
+          <div class="w-50 text-center"><b>Prizes</b><br />Cash Prizes worth Rs. 500/- and more</div>
+          <div class="w-50 text-center"><b>Eligibility</b><br />Only for Freshers of MANIT</div>
+        </div> -->
+        </p>
+        <!-- <div class="d-flex justify-content-center">
+          <button type="button" class="btn btn-light">Know More</button>
+        </div> -->
+      </div>
+    </div>
+    <!-- <div
       class="container-fluid mt-2 mb-2 p-3 transparent rounded d-flex flex-wrap  flex-wrap-reverse justify-content-center">
       <div class="p-3 w1 align-self-center">
         <h1 class="text-center font-weight-bold">Quizzotica</h1>
@@ -125,18 +197,18 @@
           VISION- To make quizzing more fun and exciting.
 
         <div class="d-flex justify-content-center">
-          <!-- <div class="w-33 text-center text-white"><b>FootFall</b><br />250+</div> -->
+          <div class="w-33 text-center text-white"><b>FootFall</b><br />250+</div>
           <div class="w-50 text-center"><b>Prizes</b><br />Cash Prizes worth Rs. 500/- and more</div>
           <div class="w-50 text-center"><b>Eligibility</b><br />Open for all</div>
         </div>
         </p>
-        <!-- <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center">
           <button type="button" class="btn btn-light">Know More</button>
-        </div> -->
+        </div>
       </div>
       <img src="images/Quizzotica/quizottica.jpg" alt="" class="w border align-self-center" />
-    </div>
-    <div class="container-fluid mt-2 p-3 mb-3 transparent rounded d-flex flex-wrap justify-content-center">
+    </div> -->
+    <!-- <div class="container-fluid mt-2 p-3 mb-3 transparent rounded d-flex flex-wrap justify-content-center">
       <img src="images/Manthan/manthan.jpg" alt="" class="w border align-self-center" />
 
       <div class="float-left p-3 w1 align-self-center">
@@ -149,17 +221,17 @@
           bragging rights.<br />
           VISION - To find the best quizzer of the country and to make quizzing more mainstream in other colleges.
         <div class="d-flex justify-content-center">
-          <!-- <div class="w-33 text-center text-white"><b>Participation</b><br />1000+</div> -->
+          <div class="w-33 text-center text-white"><b>Participation</b><br />1000+</div>
           <div class="w-50 text-center"><b>Prizes</b><br />Prizes worth Rs. 10,000/- and more</div>
           <div class="w-50 text-center"><b>Eligibility</b><br />Open for all(All over India)</div>
         </div>
         </p>
-        <!-- <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center">
           <button type="button" class="btn btn-light">Know More</button>
-        </div> -->
+        </div>
       </div>
-    </div>
-    <div
+    </div> -->
+    <!-- <div
       class="container-fluid mt-2 mb-2 p-3 transparent rounded d-flex flex-wrap  flex-wrap-reverse justify-content-center">
       <div class="p-3 w1 align-self-center">
         <h1 class="text-center font-weight-bold">TQQW</h1>
@@ -177,17 +249,17 @@
 
 
         <div class="d-flex justify-content-center">
-          <!-- <div class="w-33 text-center text-white"><b>Participation</b><br />300+</div> -->
+          <div class="w-33 text-center text-white"><b>Participation</b><br />300+</div>
           <div class="w-50 text-center"><b>Prizes</b><br />Cash Prizes worth Rs. 1000/- and more</div>
           <div class="w-50 text-center"><b>Eligibility</b><br />Open for all</div>
         </div>
         </p>
-        <!-- <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center">
           <button type="button" class="btn btn-light">Know More</button>
-        </div> -->
+        </div>
       </div>
       <img src="images/tqqw.jpeg" alt="" class="w border align-self-center" />
-    </div>
+    </div> -->
   </div>
   <!--<div class="row container-fluid m-0 p-0" id="team">
       <div class="col-12 p-5">
@@ -389,7 +461,7 @@
       </div>
     </div>
   </div> -->
-  <div class="container-fluid d-flex m-0 flex-wrap p-3 pt-5 mt-5 justify-content-around" id="contact">
+  <div class="container-fluid d-flex m-0 flex-wrap p-5 justify-content-around" id="contact">
     <div class="map d-flex justify-content-center"><iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3666.6968988373915!2d77.40640471409829!3d23.217714184854575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c42e585355ba1%3A0x7f9bd71e86c1f462!2sNEW%20TEACHING%20BLOCK%20(N.T.B)!5e0!3m2!1sen!2sin!4v1568238983722!5m2!1sen!2sin"
         class="border border-dark align-self-center " allowfullscreen=""></iframe></div>
@@ -398,18 +470,18 @@
       <!-- <input type="text" id="fname" name="firstname" placeholder="Your name.." /><br /><br />
       <input type="email" id="email" name="emailid" placeholder="Your email.." /><br /><br />
       <textarea id="subject" name="subject" placeholder="Message.."></textarea> -->
-      <div class="d-flex justify-content-around">
+      <div class="d-flex justify-content-around justify-content-md-center">
         <a href="https://www.facebook.com/Quizofficial.manit/" target="_blank"><i
-            class="fab fa-facebook-f tac fa-2x fb"></i></a>&nbsp;&nbsp;
+            class="fab fa-facebook-f tac fa-2x fb m-md-2"></i></a>
         <a href="https://instagram.com/quizzersclub?igshid=way1wjiqu8pp" target="_blank"><i
-            class="fab fa-instagram tac fa-2x insta"></i></a>&nbsp;&nbsp;
+            class="fab fa-instagram tac fa-2x insta m-md-2"></i></a>
 
         <a href="https://www.linkedin.com/company/quizzers-club-manit" target="_blank"><i
-            class="fab fa-linkedin-in tac fa-2x li"></i></a>&nbsp;&nbsp;
+            class="fab fa-linkedin-in tac fa-2x li m-md-2"></i></a>
         <a href="mailto:quizzersclubmanit@gmail.com" target="_blank"><i
-            class="far fa-envelope tac fa-2x mail"></i></i></a>&nbsp;&nbsp;
+            class="far fa-envelope tac fa-2x mail m-md-2"></i></i></a>
         <a href="https://wa.me/919584449066?text=I%27m%20interested%20in%20Quizzer%27s%20club%20MANIT."
-          target="_blank"><i class="fab fa-whatsapp tac fa-2x wp"></i></a>&nbsp;&nbsp;
+          target="_blank"><i class="fab fa-whatsapp tac fa-2x wp m-md-2"></i></a>
       </div>
     </div>
 
