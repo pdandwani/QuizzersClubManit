@@ -215,16 +215,7 @@ body {
 
   /* background-position: center 0; */
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-}
-.themeq {
-  height: 100vh;
-  background: url("quiz.jpg");
-
-  background-position: center 0;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-size: cover;
 }
 /* .map iframe {
