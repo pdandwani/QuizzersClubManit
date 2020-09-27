@@ -296,3 +296,6 @@ body {
     width: 100%;
   }
 }
+.text {
+  color: white !important;
+}
