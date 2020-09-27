@@ -122,17 +122,21 @@ body {
 
 .event {
   /* background-image: url("events.jpg"); */
-  background: linear-gradient(
+  /* background: linear-gradient(
     185deg,
     rgba(114, 210, 255, 1) 25%,
     rgba(58, 255, 97, 1) 100%
-  );
+  ); */
+  /* background: rgb(114,210,255); */
+background: linear-gradient(185deg, rgba(114,210,255,1) 25%, rgba(254,254,254,1) 100%);
+/* background-color: black; */
   background-size: cover;
   background-attachment: fixed;
 }
 #about {
   /* background-image: url("odd2.jpg"); */
   background-color: rgb(229, 193, 189);
+  /* background: linear-gradient(185deg, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 100%); */
   background-size: cover;
   background-attachment: fixed;
 }
@@ -250,9 +254,16 @@ body {
 }
 .border-purple {
   border: 1px solid #7645fb !important;
+  transition:0.5s all ease-in-out;
+}
+.border-purple:hover{
+  background-color: #7645fb ;
 }
 .border-purple > a {
   color: #7645fb !important;
+}
+.border-purple:hover a{
+  color:white !important;
 }
 .navbar > button:focus,
 .navbar > button:active {
