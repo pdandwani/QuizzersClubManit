@@ -68,7 +68,9 @@ body {
 }
 .tac {
   text-align: center;
-  color: black;
+  /* color: black; */
+  color: white;
+  font-size: 1.5rem;
 }
 .fb:hover {
   color: blue;
@@ -128,14 +130,25 @@ body {
     rgba(58, 255, 97, 1) 100%
   ); */
   /* background: rgb(114,210,255); */
-background: linear-gradient(185deg, rgba(114,210,255,1) 25%, rgba(254,254,254,1) 100%);
-/* background-color: black; */
+  background: linear-gradient(
+    185deg,
+    rgba(114, 210, 255, 1) 25%,
+    rgba(254, 254, 254, 1) 100%
+  );
+  /* background-color: black; */
   background-size: cover;
   background-attachment: fixed;
 }
 #about {
   /* background-image: url("odd2.jpg"); */
-  background-color: rgb(229, 193, 189);
+  /* background-color: rgb(167, 149, 161); */
+  background-color: #ffd6f3;
+  /* background: linear-gradient(
+    185deg,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(114, 210, 255, 1) 100%
+  ); */
+
   /* background: linear-gradient(185deg, rgba(0,0,0,1) 25%, rgba(255,255,255,1) 100%); */
   background-size: cover;
   background-attachment: fixed;
@@ -196,7 +209,7 @@ background: linear-gradient(185deg, rgba(114,210,255,1) 25%, rgba(254,254,254,1)
 }
 .theme {
   height: 100vh;
-  width:100vw;
+  width: 100vw;
   /* background: url("dl.jpg"); */
   background: url(../images/bg.png);
 
@@ -214,10 +227,10 @@ background: linear-gradient(185deg, rgba(114,210,255,1) 25%, rgba(254,254,254,1)
   background-attachment: fixed;
   background-size: cover;
 }
-.map iframe {
+/* .map iframe {
   width: 512px;
   height: 256px;
-}
+} */
 .contact input {
   border-style: solid;
   border-width: 0px 0px 1px 0px;
@@ -254,16 +267,16 @@ background: linear-gradient(185deg, rgba(114,210,255,1) 25%, rgba(254,254,254,1)
 }
 .border-purple {
   border: 1px solid #7645fb !important;
-  transition:0.5s all ease-in-out;
+  transition: 0.5s all ease-in-out;
 }
-.border-purple:hover{
-  background-color: #7645fb ;
+.border-purple:hover {
+  background-color: #7645fb;
 }
 .border-purple > a {
   color: #7645fb !important;
 }
-.border-purple:hover a{
-  color:white !important;
+.border-purple:hover a {
+  color: white !important;
 }
 .navbar > button:focus,
 .navbar > button:active {
