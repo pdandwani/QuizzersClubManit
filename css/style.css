@@ -37,7 +37,7 @@ body {
   width: 100%;
 }
 #final {
-  border-bottom: 8px solid black;
+  /* border-bottom: 8px solid black; */
   outline: none;
 }
 #final:focus {
