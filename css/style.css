@@ -274,7 +274,7 @@ body {
   border: 0 !important;
   outline: none !important;
 }
-.eventCard {
+/* .eventCard {
   width: 24%;
 }
 @media screen and (max-width: 768px) {
@@ -286,7 +286,7 @@ body {
   .eventCard {
     width: 100%;
   }
-}
+} */
 .text {
   color: white !important;
 }
