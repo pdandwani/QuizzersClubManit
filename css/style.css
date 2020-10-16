@@ -174,10 +174,15 @@ body {
 .desc img {
   width: 75%;
 }
-#seeMore {
+#small1 {
   display: none;
 }
-#seeLess {
+/* #seeMore,
+#seeMore1 {
+  display: none;
+} */
+#seeLess,
+#seeLess1 {
   display: none;
 }
 @media only screen and (max-width: 765px) {
@@ -200,10 +205,12 @@ body {
   .desc img {
     width: 50%;
   }
-  #small {
+  #small,
+  #small1 {
     display: none;
   }
-  #seeMore {
+  #seeMore,
+  #seeMore1 {
     display: block;
   }
 }
@@ -289,4 +296,15 @@ body {
 } */
 .text {
   color: white !important;
+}
+#quizMaster {
+  background: #ffd6f3;
+}
+.ff-taja-400 {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 400;
+}
+.ff-taja-800 {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 800;
 }
