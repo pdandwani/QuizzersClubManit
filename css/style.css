@@ -308,3 +308,7 @@ body {
   font-family: "Tajawal", sans-serif;
   font-weight: 800;
 }
+
+.sponsor-logo-img {
+  max-height: 200px;
+}
