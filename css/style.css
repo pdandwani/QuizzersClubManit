@@ -310,5 +310,6 @@ body {
 }
 
 .sponsor-logo-img {
-  max-height: 200px;
+  /* max-height: 200px; */
+  height: 200px;
 }
